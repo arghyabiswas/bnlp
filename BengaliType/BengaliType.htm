@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title>Bengali</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script language="javascript" src="Scripts/Bengali.js"></script>
+    <script language="Javascript" src="Scripts/parser.js"></script>
+    <script language="javascript">
+        function fnHelp() {
+            if (divHelp.style.display == "none")
+                divHelp.style.display = "";
+            else
+                divHelp.style.display = "none";
+        }
+
+        function Change() {
+            document.getElementById('divText').innerHTML = document.getElementById('TypePad').value;
+        }
+
+        function Translate() {
+            document.getElementById('divText').innerHTML = ConvertText(document.getElementById('TypePad').value);
+        }
+
+        function PhoneticTranslate() {
+            document.getElementById('divText').innerHTML = ConvertPhoneticText(document.getElementById('TypePad').value);
+        }
+
+        function DemoText() {
+            document.getElementById('divText').innerHTML = Demo();
+        }
+
+        function populate() {
+            var ddlSize = document.getElementById('ddlSize');
+            var ddlType = document.getElementById('ddlType');
+            ddlSize.length = 0;
+            for (i = 8; i < 64; i++) {
+                ddlSize.options[ddlSize.length] = new Option(i, i);
+            }
+
+            changeFont();
+        }
+        function changeFont() {
+            var ddlSize = document.getElementById('ddlSize');
+            var ddlType = document.getElementById('ddlType');
+            var TypePad = document.getElementById('TypePad');
+            var divText = document.getElementById('divText');
+            var size = ddlSize.options[ddlSize.selectedIndex].value.toString() + ddlType.options[ddlType.selectedIndex].value.toString();
+            TypePad.style.fontSize = size;
+            divText.style.fontSize = size;
+        }
+		
+    </script>
+</head>
+<body>
+    <form id="Form1">
+    <div id="divHelp" style="margin-top: 25px; display: none; z-index: 999; margin-left: 15px;
+        position: absolute">
+        <img src="help.jpg">
+    </div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <strong><em><u><font color="#cc6666">Size :</font></u></em></strong>
+                <select id="ddlSize" onchange="changeFont();">
+                </select><select id="ddlType" onchange="changeFont();"><option value="pt" selected>Pt</option>
+                    <option value="px">Px</option>
+                </select>
+            </td>
+            <td>
+                <span id="lang">Selected Language: <b>English</b>. Press F9 to change.</span><a style="cursor: pointer;
+                    float: right;" alt="Help" onclick="fnHelp();">Help</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea onkeypress="if (!isEng){ return change(this,event);} else {return true;}"
+                    id="TypePad" onkeydown="positionChange(event);" name="TypePad" style="border: 1px solid;
+                    font-size: 25pt; width: 100%; color: #cc6633; height: 200px">আপনি এখানে বান্গালাই টাইপ করতে পারবেন aapani ekhene baangaalaa i Taa ip karate paaraben </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="Translate" onclick="Translate();" />
+                <input type="button" value="Phonetic Translate" onclick="PhoneticTranslate();" />
+                <input type="button" value="Demo" onclick="DemoText();" />
+                <div id="divText" style="border: 1px solid; font-size: 25pt; width: 100%; color: #cc6633;
+                    height: 200px">
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <script language="javascript">
+        populate();
+    </script>
+</body>
+</html>

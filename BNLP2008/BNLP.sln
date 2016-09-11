@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNLP", "BNLP.csproj", "{4227F851-3DBC-4282-89B6-F6742057BCB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4227F851-3DBC-4282-89B6-F6742057BCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4227F851-3DBC-4282-89B6-F6742057BCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4227F851-3DBC-4282-89B6-F6742057BCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4227F851-3DBC-4282-89B6-F6742057BCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BNLP.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9abb9dc9-624f-45e7-8e4c-a06fadcfb8b8" name="Arghya@ARPAN-LAP 2014-06-29 11:52:30" runUser="ARPAN-LAP\Arghya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="4ba7c438-637c-45a8-a688-df3c2e240e97">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Arghya_ARPAN-LAP 2014-06-29 11_52_30" />
+  </TestSettings>
+  <Times creation="2014-06-29T11:52:30.6683024+05:30" queuing="2014-06-29T11:52:40.2798521+05:30" start="2014-06-29T11:52:43.7990534+05:30" finish="2014-06-29T11:53:19.9971238+05:30" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="26" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="25" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9688343+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\wikipedia.xml' specified by the test 'UnitTest.BnlpTest.RandomWord': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\wikipedia.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\wikipedia.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9728346+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_who.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_who': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_who.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_who.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9738346+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\special_handling_do_verb.xml' specified by the test 'UnitTest.BnlpTest.special_handling_do_verb': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\special_handling_do_verb.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\special_handling_do_verb.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9758347+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_which.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_which': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_which.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_which.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9778348+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_modal_should.xml' specified by the test 'UnitTest.BnlpTest.all_persons_modal_should': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_should.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_should.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9788349+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\third_person_tenses_active.xml' specified by the test 'UnitTest.BnlpTest.third_person_tenses_active': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\third_person_tenses_active.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\third_person_tenses_active.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9808350+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_tenses_passive.xml' specified by the test 'UnitTest.BnlpTest.all_persons_tenses_passive': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_tenses_passive.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_tenses_passive.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9828351+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_aux.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_aux': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_aux.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_aux.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9848352+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\second_person_tenses_active_negation.xml' specified by the test 'UnitTest.BnlpTest.second_person_tenses_active_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\second_person_tenses_active_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\second_person_tenses_active_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9858353+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_where.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_where': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_where.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_where.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9878354+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\prepositions_made_with_three_words.xml' specified by the test 'UnitTest.BnlpTest.prepositions_made_with_three_words': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\prepositions_made_with_three_words.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\prepositions_made_with_three_words.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9898355+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_what.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_what': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_what.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_what.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9918356+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_how.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_how': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_how.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_how.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9938358+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_whom.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_whom': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_whom.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_whom.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9948358+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\second_person_tenses_active.xml' specified by the test 'UnitTest.BnlpTest.second_person_tenses_active': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\second_person_tenses_active.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\second_person_tenses_active.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9968359+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_modal_should_negation.xml' specified by the test 'UnitTest.BnlpTest.all_persons_modal_should_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_should_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_should_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9988360+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\first_person_tenses_active_negation.xml' specified by the test 'UnitTest.BnlpTest.first_person_tenses_active_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\first_person_tenses_active_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\first_person_tenses_active_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:39.9998361+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_modal_can_may_negation.xml' specified by the test 'UnitTest.BnlpTest.all_persons_modal_can_may_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_can_may_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_can_may_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0018362+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\third_person_tenses_active_negation.xml' specified by the test 'UnitTest.BnlpTest.third_person_tenses_active_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\third_person_tenses_active_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\third_person_tenses_active_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0038363+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_do.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_do': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_do.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_do.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0058364+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\auxiliary_verbs_as_main_verbs.xml' specified by the test 'UnitTest.BnlpTest.auxiliary_verbs_as_main_verbs': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\auxiliary_verbs_as_main_verbs.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\auxiliary_verbs_as_main_verbs.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0068365+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_tenses_passive_negation.xml' specified by the test 'UnitTest.BnlpTest.all_persons_tenses_passive_negation': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_tenses_passive_negation.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_tenses_passive_negation.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0078366+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\prepositions_made_with_two_words.xml' specified by the test 'UnitTest.BnlpTest.prepositions_made_with_two_words': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\prepositions_made_with_two_words.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\prepositions_made_with_two_words.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0088366+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\first_person_tenses_active.xml' specified by the test 'UnitTest.BnlpTest.first_person_tenses_active': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\first_person_tenses_active.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\first_person_tenses_active.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0098367+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\interrogative_sentences_why.xml' specified by the test 'UnitTest.BnlpTest.interrogative_sentences_why': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_why.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\interrogative_sentences_why.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-29T11:52:40.0108367+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\all_persons_modal_can_may.xml' specified by the test 'UnitTest.BnlpTest.all_persons_modal_can_may': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_can_may.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\all_persons_modal_can_may.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="prepositions_made_with_three_words" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="0f33848d-a900-d644-7498-2526887b5425">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\prepositions_made_with_three_words.xml" />
+      </DeploymentItems>
+      <Execution id="03b16a74-964f-484f-b289-355ca91dd2b5" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="prepositions_made_with_three_words" />
+      <DataSource connectionString="|DataDirectory|\TestCases\prepositions_made_with_three_words.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="first_person_tenses_active" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="921e6ab0-d7c2-6005-e523-6fd2d5e1a723">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\first_person_tenses_active.xml" />
+      </DeploymentItems>
+      <Execution id="60bd339c-670a-4723-aa85-78a1c930251c" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="first_person_tenses_active" />
+      <DataSource connectionString="|DataDirectory|\TestCases\first_person_tenses_active.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_what" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="7f7910d1-dc89-39b4-b4cf-d9e6d7af9420">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_what.xml" />
+      </DeploymentItems>
+      <Execution id="9e639fd2-3aba-4e86-b3bf-c99fbf1c7294" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_what" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_what.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_modal_should_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="9319d01e-de3e-d310-c76e-cae8dce4c924">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_modal_should_negation.xml" />
+      </DeploymentItems>
+      <Execution id="8b94d215-4042-43bb-bbf1-c3c23b6af0f7" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_modal_should_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_modal_should_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="prepositions_made_with_two_words" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="0f337a75-1a2d-d9c3-6c5f-23ed2604b69d">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\prepositions_made_with_two_words.xml" />
+      </DeploymentItems>
+      <Execution id="a3aa4ce0-e504-47aa-9fae-b136760c1400" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="prepositions_made_with_two_words" />
+      <DataSource connectionString="|DataDirectory|\TestCases\prepositions_made_with_two_words.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_do" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="1d63c318-78a9-9011-f5c0-0b01884a2881">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_do.xml" />
+      </DeploymentItems>
+      <Execution id="31091fcd-d9bd-49ff-aa45-16ad2fca3d6c" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_do" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_do.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_tenses_passive_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="bdfe92b2-f4ac-73a5-f13d-5c1ea13721b4">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_tenses_passive_negation.xml" />
+      </DeploymentItems>
+      <Execution id="a171acd5-7d4f-4937-b794-1e39c9fa738e" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_tenses_passive_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_tenses_passive_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="third_person_tenses_active_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="fe3e63ab-391c-e168-48d0-431b85a7b898">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\third_person_tenses_active_negation.xml" />
+      </DeploymentItems>
+      <Execution id="ad2df3ee-ee73-40f1-81dc-e00b26ce3b58" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="third_person_tenses_active_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\third_person_tenses_active_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_modal_should" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="783915fe-114a-e353-78dd-56e92a60f942">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_modal_should.xml" />
+      </DeploymentItems>
+      <Execution id="f46920a9-fddc-469e-bcdf-450b15a06e11" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_modal_should" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_modal_should.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="second_person_tenses_active" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="30ab3285-6a8c-14d2-9725-bd60892ccd90">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\second_person_tenses_active.xml" />
+      </DeploymentItems>
+      <Execution id="e27304a4-ee80-49fb-949d-4d386386f645" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="second_person_tenses_active" />
+      <DataSource connectionString="|DataDirectory|\TestCases\second_person_tenses_active.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_who" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="32b5d279-0d23-e5ad-0301-234c8788f740">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_who.xml" />
+      </DeploymentItems>
+      <Execution id="22179675-85be-4a51-8de7-1232e189fe3a" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_who" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_who.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_modal_can_may" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="8fe5ccb3-a3f4-0f61-ad21-e94ef029e900">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_modal_can_may.xml" />
+      </DeploymentItems>
+      <Execution id="47baa953-f7ae-4fef-8a95-50ee1563a202" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_modal_can_may" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_modal_can_may.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_how" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="227f20ae-8e76-eb71-39b2-4ada3ce6aba8">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_how.xml" />
+      </DeploymentItems>
+      <Execution id="ee20976c-9224-4370-8d50-d4e5012d85db" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_how" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_how.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_modal_can_may_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="d03eb628-bf1f-c27d-aeef-e708d613d686">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_modal_can_may_negation.xml" />
+      </DeploymentItems>
+      <Execution id="51f89e71-3132-4323-a4c2-286bcdfcd944" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_modal_can_may_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_modal_can_may_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="RandomWord" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="642ce34f-0ed4-f995-637b-09297c832f2a">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\wikipedia.xml" />
+      </DeploymentItems>
+      <Execution id="1f3becd1-fc80-4d65-89bd-e32c3663b615" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomWord" />
+      <DataSource connectionString="|DataDirectory|\TestCases\wikipedia.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="second_person_tenses_active_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="83c68223-dcaa-51dd-423f-434210a59f77">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\second_person_tenses_active_negation.xml" />
+      </DeploymentItems>
+      <Execution id="fa83c6a9-5521-4440-8ef3-a099b1bb0fbd" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="second_person_tenses_active_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\second_person_tenses_active_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_why" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="1b04a6d6-5350-792c-8eba-a46a0eb28949">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_why.xml" />
+      </DeploymentItems>
+      <Execution id="1d459256-c5fc-413f-ac3f-a6e382ccac1c" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_why" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_why.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_which" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="97a1371f-e8e6-db3e-323e-49ffeef32df1">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_which.xml" />
+      </DeploymentItems>
+      <Execution id="4d857a38-7cb5-4802-b586-7ef465baabe2" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_which" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_which.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="third_person_tenses_active" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="0bc2f98c-98f5-f190-c78c-c00d94c547a1">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\third_person_tenses_active.xml" />
+      </DeploymentItems>
+      <Execution id="6101bbfd-5a12-4a69-bf13-f222d7040709" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="third_person_tenses_active" />
+      <DataSource connectionString="|DataDirectory|\TestCases\third_person_tenses_active.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="auxiliary_verbs_as_main_verbs" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="c79146bc-2376-961a-5de9-441b5dfc7188">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\auxiliary_verbs_as_main_verbs.xml" />
+      </DeploymentItems>
+      <Execution id="07d8974f-c75c-4f88-ab2f-35c1de5fdda4" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="auxiliary_verbs_as_main_verbs" />
+      <DataSource connectionString="|DataDirectory|\TestCases\auxiliary_verbs_as_main_verbs.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="special_handling_do_verb" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="533e7939-123c-ce84-5c5c-d5a21d1d95b9">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\special_handling_do_verb.xml" />
+      </DeploymentItems>
+      <Execution id="c6152ef4-8077-4435-8ce3-2da9a128c17c" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="special_handling_do_verb" />
+      <DataSource connectionString="|DataDirectory|\TestCases\special_handling_do_verb.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_whom" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="4e91a3b9-9eae-ebff-0b97-303f00578a78">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_whom.xml" />
+      </DeploymentItems>
+      <Execution id="9459dc48-df53-43f3-bb68-e9a84a2d4241" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_whom" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_whom.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_where" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="b9261b51-b0a2-10e2-9308-22bb2624de8b">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_where.xml" />
+      </DeploymentItems>
+      <Execution id="0eff0d1c-5f84-4204-affd-9c433ce48b36" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_where" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_where.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="interrogative_sentences_aux" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="39dcb97e-c73f-c645-a77c-64d9eba0a3a3">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\interrogative_sentences_aux.xml" />
+      </DeploymentItems>
+      <Execution id="bf72ecd3-0c56-43b1-bb64-cf4841e73fd3" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="interrogative_sentences_aux" />
+      <DataSource connectionString="|DataDirectory|\TestCases\interrogative_sentences_aux.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="all_persons_tenses_passive" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="d766a059-d96c-7b47-e6a6-34931760df96">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\all_persons_tenses_passive.xml" />
+      </DeploymentItems>
+      <Execution id="53f09031-a63b-41f3-9888-19514d2be0a4" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="all_persons_tenses_passive" />
+      <DataSource connectionString="|DataDirectory|\TestCases\all_persons_tenses_passive.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+    <UnitTest name="first_person_tenses_active_negation" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="15fe5bf6-5078-81a8-0356-385549390bb7">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\first_person_tenses_active_negation.xml" />
+      </DeploymentItems>
+      <Execution id="141d2573-629f-4925-9857-c0bec8dda2f0" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="first_person_tenses_active_negation" />
+      <DataSource connectionString="|DataDirectory|\TestCases\first_person_tenses_active_negation.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0bc2f98c-98f5-f190-c78c-c00d94c547a1" executionId="6101bbfd-5a12-4a69-bf13-f222d7040709" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f337a75-1a2d-d9c3-6c5f-23ed2604b69d" executionId="a3aa4ce0-e504-47aa-9fae-b136760c1400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f33848d-a900-d644-7498-2526887b5425" executionId="03b16a74-964f-484f-b289-355ca91dd2b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15fe5bf6-5078-81a8-0356-385549390bb7" executionId="141d2573-629f-4925-9857-c0bec8dda2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b04a6d6-5350-792c-8eba-a46a0eb28949" executionId="1d459256-c5fc-413f-ac3f-a6e382ccac1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d63c318-78a9-9011-f5c0-0b01884a2881" executionId="31091fcd-d9bd-49ff-aa45-16ad2fca3d6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="227f20ae-8e76-eb71-39b2-4ada3ce6aba8" executionId="ee20976c-9224-4370-8d50-d4e5012d85db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30ab3285-6a8c-14d2-9725-bd60892ccd90" executionId="e27304a4-ee80-49fb-949d-4d386386f645" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32b5d279-0d23-e5ad-0301-234c8788f740" executionId="22179675-85be-4a51-8de7-1232e189fe3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39dcb97e-c73f-c645-a77c-64d9eba0a3a3" executionId="bf72ecd3-0c56-43b1-bb64-cf4841e73fd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e91a3b9-9eae-ebff-0b97-303f00578a78" executionId="9459dc48-df53-43f3-bb68-e9a84a2d4241" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="533e7939-123c-ce84-5c5c-d5a21d1d95b9" executionId="c6152ef4-8077-4435-8ce3-2da9a128c17c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="642ce34f-0ed4-f995-637b-09297c832f2a" executionId="1f3becd1-fc80-4d65-89bd-e32c3663b615" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="783915fe-114a-e353-78dd-56e92a60f942" executionId="f46920a9-fddc-469e-bcdf-450b15a06e11" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f7910d1-dc89-39b4-b4cf-d9e6d7af9420" executionId="9e639fd2-3aba-4e86-b3bf-c99fbf1c7294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83c68223-dcaa-51dd-423f-434210a59f77" executionId="fa83c6a9-5521-4440-8ef3-a099b1bb0fbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fe5ccb3-a3f4-0f61-ad21-e94ef029e900" executionId="47baa953-f7ae-4fef-8a95-50ee1563a202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="921e6ab0-d7c2-6005-e523-6fd2d5e1a723" executionId="60bd339c-670a-4723-aa85-78a1c930251c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9319d01e-de3e-d310-c76e-cae8dce4c924" executionId="8b94d215-4042-43bb-bbf1-c3c23b6af0f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97a1371f-e8e6-db3e-323e-49ffeef32df1" executionId="4d857a38-7cb5-4802-b586-7ef465baabe2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9261b51-b0a2-10e2-9308-22bb2624de8b" executionId="0eff0d1c-5f84-4204-affd-9c433ce48b36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdfe92b2-f4ac-73a5-f13d-5c1ea13721b4" executionId="a171acd5-7d4f-4937-b794-1e39c9fa738e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c79146bc-2376-961a-5de9-441b5dfc7188" executionId="07d8974f-c75c-4f88-ab2f-35c1de5fdda4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d03eb628-bf1f-c27d-aeef-e708d613d686" executionId="51f89e71-3132-4323-a4c2-286bcdfcd944" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d766a059-d96c-7b47-e6a6-34931760df96" executionId="53f09031-a63b-41f3-9888-19514d2be0a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe3e63ab-391c-e168-48d0-431b85a7b898" executionId="ad2df3ee-ee73-40f1-81dc-e00b26ce3b58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6101bbfd-5a12-4a69-bf13-f222d7040709" testId="0bc2f98c-98f5-f190-c78c-c00d94c547a1" testName="third_person_tenses_active" computerName="ARPAN-LAP" duration="00:00:34.6989847" startTime="2014-06-29T11:52:44.8641143+05:30" endTime="2014-06-29T11:53:19.5630990+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6101bbfd-5a12-4a69-bf13-f222d7040709">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a3aa4ce0-e504-47aa-9fae-b136760c1400" testId="0f337a75-1a2d-d9c3-6c5f-23ed2604b69d" testName="prepositions_made_with_two_words" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3aa4ce0-e504-47aa-9fae-b136760c1400">
+    </UnitTestResult>
+    <UnitTestResult executionId="03b16a74-964f-484f-b289-355ca91dd2b5" testId="0f33848d-a900-d644-7498-2526887b5425" testName="prepositions_made_with_three_words" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03b16a74-964f-484f-b289-355ca91dd2b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="141d2573-629f-4925-9857-c0bec8dda2f0" testId="15fe5bf6-5078-81a8-0356-385549390bb7" testName="first_person_tenses_active_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="141d2573-629f-4925-9857-c0bec8dda2f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d459256-c5fc-413f-ac3f-a6e382ccac1c" testId="1b04a6d6-5350-792c-8eba-a46a0eb28949" testName="interrogative_sentences_why" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d459256-c5fc-413f-ac3f-a6e382ccac1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="31091fcd-d9bd-49ff-aa45-16ad2fca3d6c" testId="1d63c318-78a9-9011-f5c0-0b01884a2881" testName="interrogative_sentences_do" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31091fcd-d9bd-49ff-aa45-16ad2fca3d6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee20976c-9224-4370-8d50-d4e5012d85db" testId="227f20ae-8e76-eb71-39b2-4ada3ce6aba8" testName="interrogative_sentences_how" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee20976c-9224-4370-8d50-d4e5012d85db">
+    </UnitTestResult>
+    <UnitTestResult executionId="e27304a4-ee80-49fb-949d-4d386386f645" testId="30ab3285-6a8c-14d2-9725-bd60892ccd90" testName="second_person_tenses_active" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e27304a4-ee80-49fb-949d-4d386386f645">
+    </UnitTestResult>
+    <UnitTestResult executionId="22179675-85be-4a51-8de7-1232e189fe3a" testId="32b5d279-0d23-e5ad-0301-234c8788f740" testName="interrogative_sentences_who" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22179675-85be-4a51-8de7-1232e189fe3a">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf72ecd3-0c56-43b1-bb64-cf4841e73fd3" testId="39dcb97e-c73f-c645-a77c-64d9eba0a3a3" testName="interrogative_sentences_aux" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf72ecd3-0c56-43b1-bb64-cf4841e73fd3">
+    </UnitTestResult>
+    <UnitTestResult executionId="9459dc48-df53-43f3-bb68-e9a84a2d4241" testId="4e91a3b9-9eae-ebff-0b97-303f00578a78" testName="interrogative_sentences_whom" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9459dc48-df53-43f3-bb68-e9a84a2d4241">
+    </UnitTestResult>
+    <UnitTestResult executionId="c6152ef4-8077-4435-8ce3-2da9a128c17c" testId="533e7939-123c-ce84-5c5c-d5a21d1d95b9" testName="special_handling_do_verb" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6152ef4-8077-4435-8ce3-2da9a128c17c">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f3becd1-fc80-4d65-89bd-e32c3663b615" testId="642ce34f-0ed4-f995-637b-09297c832f2a" testName="RandomWord" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f3becd1-fc80-4d65-89bd-e32c3663b615">
+    </UnitTestResult>
+    <UnitTestResult executionId="f46920a9-fddc-469e-bcdf-450b15a06e11" testId="783915fe-114a-e353-78dd-56e92a60f942" testName="all_persons_modal_should" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f46920a9-fddc-469e-bcdf-450b15a06e11">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e639fd2-3aba-4e86-b3bf-c99fbf1c7294" testId="7f7910d1-dc89-39b4-b4cf-d9e6d7af9420" testName="interrogative_sentences_what" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e639fd2-3aba-4e86-b3bf-c99fbf1c7294">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa83c6a9-5521-4440-8ef3-a099b1bb0fbd" testId="83c68223-dcaa-51dd-423f-434210a59f77" testName="second_person_tenses_active_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa83c6a9-5521-4440-8ef3-a099b1bb0fbd">
+    </UnitTestResult>
+    <UnitTestResult executionId="47baa953-f7ae-4fef-8a95-50ee1563a202" testId="8fe5ccb3-a3f4-0f61-ad21-e94ef029e900" testName="all_persons_modal_can_may" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47baa953-f7ae-4fef-8a95-50ee1563a202">
+    </UnitTestResult>
+    <UnitTestResult executionId="60bd339c-670a-4723-aa85-78a1c930251c" testId="921e6ab0-d7c2-6005-e523-6fd2d5e1a723" testName="first_person_tenses_active" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60bd339c-670a-4723-aa85-78a1c930251c">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b94d215-4042-43bb-bbf1-c3c23b6af0f7" testId="9319d01e-de3e-d310-c76e-cae8dce4c924" testName="all_persons_modal_should_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b94d215-4042-43bb-bbf1-c3c23b6af0f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="4d857a38-7cb5-4802-b586-7ef465baabe2" testId="97a1371f-e8e6-db3e-323e-49ffeef32df1" testName="interrogative_sentences_which" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d857a38-7cb5-4802-b586-7ef465baabe2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0eff0d1c-5f84-4204-affd-9c433ce48b36" testId="b9261b51-b0a2-10e2-9308-22bb2624de8b" testName="interrogative_sentences_where" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0eff0d1c-5f84-4204-affd-9c433ce48b36">
+    </UnitTestResult>
+    <UnitTestResult executionId="a171acd5-7d4f-4937-b794-1e39c9fa738e" testId="bdfe92b2-f4ac-73a5-f13d-5c1ea13721b4" testName="all_persons_tenses_passive_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a171acd5-7d4f-4937-b794-1e39c9fa738e">
+    </UnitTestResult>
+    <UnitTestResult executionId="07d8974f-c75c-4f88-ab2f-35c1de5fdda4" testId="c79146bc-2376-961a-5de9-441b5dfc7188" testName="auxiliary_verbs_as_main_verbs" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07d8974f-c75c-4f88-ab2f-35c1de5fdda4">
+    </UnitTestResult>
+    <UnitTestResult executionId="51f89e71-3132-4323-a4c2-286bcdfcd944" testId="d03eb628-bf1f-c27d-aeef-e708d613d686" testName="all_persons_modal_can_may_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51f89e71-3132-4323-a4c2-286bcdfcd944">
+    </UnitTestResult>
+    <UnitTestResult executionId="53f09031-a63b-41f3-9888-19514d2be0a4" testId="d766a059-d96c-7b47-e6a6-34931760df96" testName="all_persons_tenses_passive" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53f09031-a63b-41f3-9888-19514d2be0a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad2df3ee-ee73-40f1-81dc-e00b26ce3b58" testId="fe3e63ab-391c-e168-48d0-431b85a7b898" testName="third_person_tenses_active_negation" computerName="ARPAN-LAP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad2df3ee-ee73-40f1-81dc-e00b26ce3b58">
+    </UnitTestResult>
+  </Results>
+</TestRun>

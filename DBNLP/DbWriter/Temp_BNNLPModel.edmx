@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Temp_DBNLPModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="Temp_DBNLPModelStoreContainer">
+          <EntitySet Name="Model" EntityType="Temp_DBNLPModel.Store.Model" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Outcome" EntityType="Temp_DBNLPModel.Store.Outcome" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Predicate" EntityType="Temp_DBNLPModel.Store.Predicate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PredicateParameter" EntityType="Temp_DBNLPModel.Store.PredicateParameter" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_PredicateParameter_Outcome" Association="Temp_DBNLPModel.Store.FK_PredicateParameter_Outcome">
+            <End Role="Outcome" EntitySet="Outcome" />
+            <End Role="PredicateParameter" EntitySet="PredicateParameter" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PredicateParameter_Predicate" Association="Temp_DBNLPModel.Store.FK_PredicateParameter_Predicate">
+            <End Role="Predicate" EntitySet="Predicate" />
+            <End Role="PredicateParameter" EntitySet="PredicateParameter" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Model">
+          <Key>
+            <PropertyRef Name="ModelID" />
+          </Key>
+          <Property Name="ModelID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CorrectionConstant" Type="int" Nullable="false" />
+          <Property Name="CorrectionParameter" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Outcome">
+          <Key>
+            <PropertyRef Name="OutcomeID" />
+          </Key>
+          <Property Name="OutcomeID" Type="int" Nullable="false" />
+          <Property Name="OutcomeLabel" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Predicate">
+          <Key>
+            <PropertyRef Name="PredicateID" />
+          </Key>
+          <Property Name="PredicateID" Type="int" Nullable="false" />
+          <Property Name="PredicateLabel" Type="varchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="PredicateParameter">
+          <Key>
+            <PropertyRef Name="PredicateID" />
+            <PropertyRef Name="OutcomeID" />
+          </Key>
+          <Property Name="PredicateID" Type="int" Nullable="false" />
+          <Property Name="OutcomeID" Type="int" Nullable="false" />
+          <Property Name="Parameter" Type="float" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_PredicateParameter_Outcome">
+          <End Role="Outcome" Type="Temp_DBNLPModel.Store.Outcome" Multiplicity="1" />
+          <End Role="PredicateParameter" Type="Temp_DBNLPModel.Store.PredicateParameter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Outcome">
+              <PropertyRef Name="OutcomeID" />
+            </Principal>
+            <Dependent Role="PredicateParameter">
+              <PropertyRef Name="OutcomeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PredicateParameter_Predicate">
+          <End Role="Predicate" Type="Temp_DBNLPModel.Store.Predicate" Multiplicity="1" />
+          <End Role="PredicateParameter" Type="Temp_DBNLPModel.Store.PredicateParameter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Predicate">
+              <PropertyRef Name="PredicateID" />
+            </Principal>
+            <Dependent Role="PredicateParameter">
+              <PropertyRef Name="PredicateID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Temp_DBNLPModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="Temp_DBNLPEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Models" EntityType="Temp_DBNLPModel.Model" />
+          <EntitySet Name="Outcomes" EntityType="Temp_DBNLPModel.Outcome" />
+          <EntitySet Name="Predicates" EntityType="Temp_DBNLPModel.Predicate" />
+          <EntitySet Name="PredicateParameters" EntityType="Temp_DBNLPModel.PredicateParameter" />
+          <AssociationSet Name="FK_PredicateParameter_Outcome" Association="Temp_DBNLPModel.FK_PredicateParameter_Outcome">
+            <End Role="Outcome" EntitySet="Outcomes" />
+            <End Role="PredicateParameter" EntitySet="PredicateParameters" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PredicateParameter_Predicate" Association="Temp_DBNLPModel.FK_PredicateParameter_Predicate">
+            <End Role="Predicate" EntitySet="Predicates" />
+            <End Role="PredicateParameter" EntitySet="PredicateParameters" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Model">
+          <Key>
+            <PropertyRef Name="ModelID" />
+          </Key>
+          <Property Name="ModelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CorrectionConstant" Type="Int32" Nullable="false" />
+          <Property Name="CorrectionParameter" Type="Double" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Outcome">
+          <Key>
+            <PropertyRef Name="OutcomeID" />
+          </Key>
+          <Property Name="OutcomeID" Type="Int32" Nullable="false" />
+          <Property Name="OutcomeLabel" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="PredicateParameters" Relationship="Temp_DBNLPModel.FK_PredicateParameter_Outcome" FromRole="Outcome" ToRole="PredicateParameter" />
+        </EntityType>
+        <EntityType Name="Predicate">
+          <Key>
+            <PropertyRef Name="PredicateID" />
+          </Key>
+          <Property Name="PredicateID" Type="Int32" Nullable="false" />
+          <Property Name="PredicateLabel" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="PredicateParameters" Relationship="Temp_DBNLPModel.FK_PredicateParameter_Predicate" FromRole="Predicate" ToRole="PredicateParameter" />
+        </EntityType>
+        <EntityType Name="PredicateParameter">
+          <Key>
+            <PropertyRef Name="PredicateID" />
+            <PropertyRef Name="OutcomeID" />
+          </Key>
+          <Property Name="PredicateID" Type="Int32" Nullable="false" />
+          <Property Name="OutcomeID" Type="Int32" Nullable="false" />
+          <Property Name="Parameter" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Outcome" Relationship="Temp_DBNLPModel.FK_PredicateParameter_Outcome" FromRole="PredicateParameter" ToRole="Outcome" />
+          <NavigationProperty Name="Predicate" Relationship="Temp_DBNLPModel.FK_PredicateParameter_Predicate" FromRole="PredicateParameter" ToRole="Predicate" />
+        </EntityType>
+        <Association Name="FK_PredicateParameter_Outcome">
+          <End Role="Outcome" Type="Temp_DBNLPModel.Outcome" Multiplicity="1" />
+          <End Role="PredicateParameter" Type="Temp_DBNLPModel.PredicateParameter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Outcome">
+              <PropertyRef Name="OutcomeID" />
+            </Principal>
+            <Dependent Role="PredicateParameter">
+              <PropertyRef Name="OutcomeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PredicateParameter_Predicate">
+          <End Role="Predicate" Type="Temp_DBNLPModel.Predicate" Multiplicity="1" />
+          <End Role="PredicateParameter" Type="Temp_DBNLPModel.PredicateParameter" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Predicate">
+              <PropertyRef Name="PredicateID" />
+            </Principal>
+            <Dependent Role="PredicateParameter">
+              <PropertyRef Name="PredicateID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Temp_DBNLPModelStoreContainer" CdmEntityContainer="Temp_DBNLPEntities">
+          <EntitySetMapping Name="Models">
+            <EntityTypeMapping TypeName="Temp_DBNLPModel.Model">
+              <MappingFragment StoreEntitySet="Model">
+                <ScalarProperty Name="ModelID" ColumnName="ModelID" />
+                <ScalarProperty Name="CorrectionConstant" ColumnName="CorrectionConstant" />
+                <ScalarProperty Name="CorrectionParameter" ColumnName="CorrectionParameter" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Outcomes">
+            <EntityTypeMapping TypeName="Temp_DBNLPModel.Outcome">
+              <MappingFragment StoreEntitySet="Outcome">
+                <ScalarProperty Name="OutcomeID" ColumnName="OutcomeID" />
+                <ScalarProperty Name="OutcomeLabel" ColumnName="OutcomeLabel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Predicates">
+            <EntityTypeMapping TypeName="Temp_DBNLPModel.Predicate">
+              <MappingFragment StoreEntitySet="Predicate">
+                <ScalarProperty Name="PredicateID" ColumnName="PredicateID" />
+                <ScalarProperty Name="PredicateLabel" ColumnName="PredicateLabel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PredicateParameters">
+            <EntityTypeMapping TypeName="Temp_DBNLPModel.PredicateParameter">
+              <MappingFragment StoreEntitySet="PredicateParameter">
+                <ScalarProperty Name="PredicateID" ColumnName="PredicateID" />
+                <ScalarProperty Name="OutcomeID" ColumnName="OutcomeID" />
+                <ScalarProperty Name="Parameter" ColumnName="Parameter" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Temp_BNNLPModel">
+        <EntityTypeShape EntityType="Temp_DBNLPModel.Model" Width="1.5" PointX="6.625" PointY="2.125" Height="1.4279589843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="Temp_DBNLPModel.Outcome" Width="1.5" PointX="1" PointY="0.5" Height="1.427958984375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Temp_DBNLPModel.Predicate" Width="1.5" PointX="0.75" PointY="4.125" Height="1.4279589843749996" IsExpanded="true" />
+        <EntityTypeShape EntityType="Temp_DBNLPModel.PredicateParameter" Width="1.5" PointX="3.625" PointY="2.25" Height="1.7566536458333333" IsExpanded="true" />
+        <AssociationConnector Association="Temp_DBNLPModel.FK_PredicateParameter_Outcome" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.5" PointY="1.2139794921875" />
+          <ConnectorPoint PointX="4.375" PointY="1.2139794921875" />
+          <ConnectorPoint PointX="4.375" PointY="2.25" />
+        </AssociationConnector>
+        <AssociationConnector Association="Temp_DBNLPModel.FK_PredicateParameter_Predicate" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="4.8389794921875" />
+          <ConnectorPoint PointX="4.375" PointY="4.8389794921875" />
+          <ConnectorPoint PointX="4.375" PointY="4.0066536458333335" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

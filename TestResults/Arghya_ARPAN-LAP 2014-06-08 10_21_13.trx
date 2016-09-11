@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bf660e06-17dc-46ed-96a9-de8cd3dacee1" name="Arghya@ARPAN-LAP 2014-06-08 10:21:13" runUser="ARPAN-LAP\Arghya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ec8471fe-a1b1-4bb3-aa17-619f00e61449">
+    <Deployment userDeploymentRoot="D:\software\Project\BNLP\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Arghya_ARPAN-LAP 2014-06-08 10_21_13" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-06-08T10:21:13.3381626+05:30" queuing="2014-06-08T10:21:13.6511805+05:30" start="2014-06-08T10:21:13.7021834+05:30" finish="2014-06-08T10:21:18.6404659+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ARPAN-LAP" outcome="Warning" timestamp="2014-06-08T10:21:13.4761705+05:30">
+        <Text>Warning: Test Run deployment issue: Failed to get the file for deployment item '..\UnitTest\TestCases\wikipedia.xml' specified by the test 'UnitTest.BnlpTest.RandomWord': System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\wikipedia.xml'.</Text>
+        <Exception>System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\software\Project\UnitTest\TestCases\wikipedia.xml'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.GetAttributes(String path)
+   at Microsoft.VisualStudio.TestTools.Common.SingleFileProvider.GetFilePaths()
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentCoverageItem.GetFiles(TestRunConfiguration runConfig)
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RandomWord" storage="d:\software\project\bnlp\unittest\bin\debug\unittest.dll" id="642ce34f-0ed4-f995-637b-09297c832f2a">
+      <DeploymentItems>
+        <DeploymentItem filename="..\UnitTest\TestCases\wikipedia.xml" />
+      </DeploymentItems>
+      <Execution id="add890b9-a572-4e6c-b857-a123ebfa7a4d" />
+      <TestMethod codeBase="D:/software/Project/BNLP/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.BnlpTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomWord" />
+      <DataSource connectionString="|DataDirectory|\TestCases\wikipedia.xml" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.XML" tableName="sentence" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="642ce34f-0ed4-f995-637b-09297c832f2a" executionId="add890b9-a572-4e6c-b857-a123ebfa7a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="add890b9-a572-4e6c-b857-a123ebfa7a4d" testId="642ce34f-0ed4-f995-637b-09297c832f2a" testName="RandomWord" computerName="ARPAN-LAP" duration="00:00:04.5388611" startTime="2014-06-08T10:21:13.7321852+05:30" endTime="2014-06-08T10:21:18.6064639+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="add890b9-a572-4e6c-b857-a123ebfa7a4d" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="06de9371-acd3-4849-abf9-14f7b7b25896" parentExecutionId="add890b9-a572-4e6c-b857-a123ebfa7a4d" testId="642ce34f-0ed4-f995-637b-09297c832f2a" testName="RandomWord" computerName="ARPAN-LAP" duration="00:00:04.3544406" startTime="2014-06-08T10:21:14.2232132+05:30" endTime="2014-06-08T10:21:18.5854627+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="add890b9-a572-4e6c-b857-a123ebfa7a4d" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;পূর্ব সলোমন এর নৌ যুদ্ধ ২৪–২৫ অগষ্ট ১৯৪২ য়ে স্থান গ্রহণ করেছিল , এবং দ্বিতীয় বিশ্ব যুদ্ধ এর প্রশান্ত মহাসাগর সংগঠিত প্রচারকার্য এর তৃতীয় যুদ্ধ বাহক ।&gt;. Actual:&lt;পূর্ব সলোমন এর নৌ যুদ্ধ ২৪–২৫ অগষ্ট ১৯৪২ য়ে স্থান গ্রহণ করেছিল , এবং দ্বিতীয় বিশ্ব যুদ্ধ এর pacific:NP সংগঠিত প্রচারকার্য এর তৃতীয় যুদ্ধ বাহক ।&gt;. The naval Battle of the Eastern Solomons took place on 24–25 August 1942, and was the third carrier battle of the Pacific campaign of second World War.</Message>
+              <StackTrace>   at UnitTest.BnlpTest.RandomWord() in D:\software\Project\BNLP\UnitTest\BnlpTest.cs:line 526
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

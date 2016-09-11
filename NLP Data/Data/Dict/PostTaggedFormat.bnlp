@@ -1,0 +1,152 @@
+﻿([A-Z]*):(About|about)([A-Z{ }:]*):to}
+IN:about.to$3: }
+([A-Z]*):(Accord|accord)([A-Z{ }:]*):to}
+IN:accord.to$3: }
+([A-Z]*):(According|according)([A-Z{ }:]*):to}
+IN:according.to$3: }
+([A-Z]*):(Ahead|ahead)([A-Z{ }:]*):of}
+IN:ahead.of$3: }
+([A-Z]*):(As|as)([A-Z{ }:]*):to}
+IN:as.to$3: }
+([A-Z]*):(Aside|aside)([A-Z{ }:]*):from}
+IN:aside.from$3: }
+([A-Z]*):(Because|because)([A-Z{ }:]*):of}
+IN:because.of$3: }
+([A-Z]*):(Close|close)([A-Z{ }:]*):to}
+IN:close.to$3: }
+([A-Z]*):(Consist|consist)([A-Z{ }:]*):of}
+IN:consist.of$3: }
+([A-Z]*):(Due|due)([A-Z{ }:]*):to}
+IN:due.to$3: }
+([A-Z]*):(Except|except)([A-Z{ }:]*):for}
+IN:except.for$3: }
+([A-Z]*):(Far|far)([A-Z{ }:]*):from}
+IN:far.from$3: }
+([A-Z]*):(In|in)([A-Z{ }:]*):to}
+IN:in.to$3: }
+([A-Z]*):(Inside|inside)([A-Z{ }:]*):to}
+IN:inside.to$3: }
+([A-Z]*):(Inside|inside)([A-Z{ }:]*):of}
+IN:inside.of$3: }
+([A-Z]*):(Near|near)([A-Z{ }:]*):to}
+IN:near.to$3: }
+([A-Z]*):(Next|next)([A-Z{ }:]*):to}
+IN:next.to$3: }
+([A-Z]*):(On|on)([A-Z{ }:]*):to}
+IN:on.to$3: }
+([A-Z]*):(Out|out)([A-Z{ }:]*):from}
+IN:out.from$3: }
+([A-Z]*):(Out|out)([A-Z{ }:]*):of}
+IN:out.of$3: }
+([A-Z]*):(Outside|outside)([A-Z{ }:]*):of}
+IN:outside.of$3: }
+([A-Z]*):(Owing|owing)([A-Z{ }:]*):to}
+IN:owing.to$3: }
+([A-Z]*):(Prior|prior)([A-Z{ }:]*):to}
+IN:prior.to$3: }
+([A-Z]*):(Pursuant|pursuant)([A-Z{ }:]*):to}
+IN:pursuant.to$3: }
+([A-Z]*):(Regardless|regardless)([A-Z{ }:]*):of}
+IN:regardless.of$3: }
+([A-Z]*):(Subsequent|subsequent)([A-Z{ }:]*):to}
+IN:subsequent.to$3: }
+([A-Z]*):(Similar|similar)([A-Z{ }:]*):to}
+IN:similar.to$3: }
+([A-Z]*):(With|with)([A-Z{ }:]*):no}
+IN:with.no$3: }
+([A-Z]*):(Not|not)([A-Z{ }:]*):to}
+IN:not.to$3: }
+([A-Z]*):(Up|up)([A-Z{ }:]*):to}
+IN:up.to$3: }
+([A-Z]*):(Such|such)([A-Z{ }:]*):ao}
+IN:such.as$3: }
+([A-Z]*):(No|no)([A-Z{ }:]*):such}
+DT:no.such$3: }
+([A-Z]*):(No|no)([A-Z{ }:]*):more}
+DT:no.more$3: }
+([A-Z]*):(No|no)([A-Z{ }:]*):longer}
+DT:no.longer$3: }
+([A-Z]*):(To|to)([A-Z{ }:]*):whom}
+WP:to.whom$3: }
+([A-Z]*):(Each|each)([A-Z{ }:]*):other}
+PP:each.other$3: }
+([A-Z]*):(Think|think)([A-Z{ }:]*):tank}
+IN:think.tank$3: }
+([A-Z]*):(As|as)([A-Z{ }:]*):far([A-Z{ }:]*):as}
+IN:as.far.as$3: $4: }
+([A-Z]*):(As|as)([A-Z{ }:]*):well([A-Z{ }:]*):as}
+IN:as.well.as$3: $4: }
+([A-Z]*):(By|by)([A-Z{ }:]*):mean([A-Z{ }:]*):of}
+IN:by.mean.of$3: $4: }
+([A-Z]*):(By|by)([A-Z{ }:]*):means([A-Z{ }:]*):of}
+IN:by.means.of$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):accordance([A-Z{ }:]*):with}
+IN:in.accordance.with$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):addition([A-Z{ }:]*):to}
+IN:in.addition.to$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):case([A-Z{ }:]*):of}
+IN:in.case.of$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):front([A-Z{ }:]*):of}
+IN:in.front.of$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):lieu([A-Z{ }:]*):of}
+IN:in.lieu.of$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):place([A-Z{ }:]*):of}
+IN:in.place.of$3: $4: }
+([A-Z]*):(In|in)([A-Z{ }:]*):spite([A-Z{ }:]*):of}
+IN:in.spite.of$3: $4: }
+([A-Z]*):(On|on)([A-Z{ }:]*):account([A-Z{ }:]*):of}
+IN:on.account.of$3: $4: }
+([A-Z]*):(On|on)([A-Z{ }:]*):top([A-Z{ }:]*):of}
+IN:on.top.of$3: $4: }
+([A-Z]*):(On|on)([A-Z{ }:]*):behalf([A-Z{ }:]*):of}
+IN:on.behalf.of$3:of$4: }
+([A-Z]*):(With|with)([A-Z{ }:]*):respect([A-Z{ }:]*):to}
+IN:with.respect.to$3: $4: }
+([A-Z]*):(Get|get)([A-Z{ }:]*):(up)
+$1:get.up$3:$4
+([A-Z]*):(On|on)([A-Z{ }:]*):the([A-Z{ }:]*):fly}
+RB:on.the.fly$3:$4: }
+([A-Z]*):(Hove|hove)([A-Z{ }:]*):to
+$1:have.to$3:$4
+([A-Z]*):(Make|make)([A-Z{ }:]*):sure}
+VV:make.sure$3: }
+([A-Z]*):(How|how)([A-Z{ }:]*):(am)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(is)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(are)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(was)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(were)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(be)
+$1:how.be$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(do)
+$1:how.do$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(did)
+$1:how.do$3:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):(does)
+$1:how.do$3:$4
+([A-Z]*):(How|how)([{ }]*)MD:([^A-Z])
+$1:how.do$3MD:$4
+([A-Z]*):(How|how)([A-Z{ }:]*):to([A-Z{ }:]*):not}
+$1:how.to.not$3:to$4: }
+([A-Z]*):(How|how)([A-Z{ }:]*):(to)
+$1:how.to$3:$4
+{([A-Z]*):(How|how)}([^J]*)JJ:([a-z]*)}
+{$1: }$3JJ:how.$4}
+{([A-Z]*):(How|how)}([^RB]*)RB:([a-z]*)}
+{$1: }$3JJ:how.$4}
+{([A-Z]*):to}
+{TO:to}
+{JJ:on}
+{IN:on}
+IN:([^{ }:])VVG:([^{ }])
+IN:$1NP:$2
+([A-Z]*):to([A-Z{ }:]*):(be)}
+$1:to.be}$2:
+{NN:carrier} {NN:battle}
+{NN:carrier.battle}
+{NN:i.} {NN:e.}
+{NP:i.e.}

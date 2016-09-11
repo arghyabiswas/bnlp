@@ -1,0 +1,54 @@
+﻿([!$%^&*()+={}\[\]~#@:;<>,?/\\])
+ $1 
+ ([Rr][Ss])(.| .)([\d|.\d]*)
+ $3 Rs 
+\.(\D)
+ . $1
+ ([A-Z]) .  
+ $1. 
+(a.m|p.m|e.g|i.e|etc|p.s|U.S.A|Mr|Mrs|Ms|Dr|Prof|Inc|Co|Corp) \.
+$1. 
+``
+\"
+\'\'
+\"
+\"
+ \" 
+&
+ & 
+--
+ -- 
+([\s])\'(\w)
+$1 \' $2
+([^ \'])\' 
+$1 \' 
+\'([SsMmDd]) 
+ \'$1 
+('ll) 
+ will 
+\'(ll|LL|re|RE|ve|VE) 
+ \'$1 
+(n't) 
+ not 
+(n\'t|N\'T) 
+$1 
+ ([cC])annot
+ $1an not
+ ([dD])\'ye
+ $1\' ye
+ ([gG])imme 
+ $im me 
+ ([gG])onna 
+ $1on na 
+ ([gG])otta 
+ $1ot ta 
+ ([lL])emme 
+ $1em me 
+ ([mM])ore\'n
+ $1ore \'n
+ \'([tT])is
+ $1 is 
+ \'([tT])was
+ $1 was 
+ ([wW])anna 
+ $1an na 

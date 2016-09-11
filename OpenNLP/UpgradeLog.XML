@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OpenNLP_2010">
+</Property><Property Name="Solution File" Value="D:\software\Project\BNLP\OpenNLP\OpenNLP_2010.sln">
+</Property><Property Name="Date" Value="04 June 2014">
+</Property><Property Name="Time" Value="00:41 AM">
+</Property></Properties><Event ErrorLevel="0" Project="OpenNLP" Source="OpenNLP\OpenNLP.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="OpenNLP" Source="OpenNLP\OpenNLP.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SharpWordNet" Source="SharpWordNet\SharpWordNet.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SharpWordNet" Source="SharpWordNet\SharpWordNet.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SharpEntropy" Source="SharpEntropy\SharpEntropy.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SharpEntropy" Source="SharpEntropy\SharpEntropy.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NLPToken" Source="Token\NLPToken.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NLPToken" Source="Token\NLPToken.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="AsProxy" Source="..\ASproxy\ASProxy\AsProxy.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="AsProxy" Source="..\ASproxy\ASProxy\AsProxy.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="SalarSoft.ASProxy" Source="..\ASproxy\SalarSoft.ASProxy\SalarSoft.ASProxy.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SalarSoft.ASProxy" Source="..\ASproxy\SalarSoft.ASProxy\SalarSoft.ASProxy.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HtmlAgilityPack" Source="..\Html Parser\HtmlAgilityPack\HtmlAgilityPack.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HtmlAgilityPack" Source="..\Html Parser\HtmlAgilityPack\HtmlAgilityPack.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BNLP2008" Source="..\BNLP2008\BNLP2008.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="BNLP2008" Source="..\BNLP2008\BNLP2008.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="OpenNLP_2010.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="OpenNLP_2010.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="OpenNLP" Source="OpenNLP\OpenNLP.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SharpWordNet" Source="SharpWordNet\SharpWordNet.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SharpEntropy" Source="SharpEntropy\SharpEntropy.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="NLPToken" Source="Token\NLPToken.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SalarSoft.ASProxy" Source="..\ASproxy\SalarSoft.ASProxy\SalarSoft.ASProxy.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="HtmlAgilityPack" Source="..\Html Parser\HtmlAgilityPack\HtmlAgilityPack.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

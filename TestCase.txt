@@ -1,0 +1,331 @@
+Modal verbs: can, may, could and might for all persons
+I can work.
+I may work.
+I could work.
+I might work.
+I could have worked.
+I might have worked.
+I can have this book .
+I may have this book .
+You can work.
+You may work.
+You could work.
+You might work.
+You could have worked.
+You might have worked.
+You can have this book.
+You may have this book.
+She can work.
+She may work.
+She could work.
+She might work.
+She could have worked.
+She might have worked.
+She may have this book.
+It can be done.
+It may be done.
+It could be done.
+It might be done.
+It could have been done.
+It might have been done.
+
+Modal verbs: can, may, could and might for all persons in negation
+I can not work.
+I may not work.
+I could not work.
+I might not work.
+I could not have worked.
+I might not have worked.
+I can not have this book .
+I may not have this book .
+You can not work.
+You may not work.
+You could not work.
+You might not work.
+You could not have worked.
+You might not have worked.
+You can not have this book.
+You may not have this book.
+She can not work.
+She may not work.
+She could not work.
+She can not work.
+She might not work.
+She could not have worked.
+She might not have worked.
+She may not have this book.
+
+Modal verb: should for all persons and tenses
+I should work.
+I should be working.
+I should have worked.
+I should have been working.
+You should work.
+You should be working.
+You should have worked.
+You should have been working.
+She should work.
+She should be working.
+She should have worked.
+She should have been working.
+This machine should be working.
+This machine should have worked.
+This car should have air-conditioner.
+It should be done.
+It should have been done.
+
+Modal verb: should for all persons and tenses in negation
+I should not work.
+I should not be working.
+I should not have worked.
+I should not have been working.
+You should not work.
+You should not be working.
+You should not have worked.
+You should not have been working.
+She should not work.
+She should not be working.
+She should not have worked.
+She should not have been working.
+This machine should not be working.
+This machine should not have worked.
+This car should not have air-conditioner.
+It should not be done.
+It should not have been done.
+
+All persons: all tenses, passive sentences
+I am told.
+I am being told.
+I have been told.
+I have been being told.
+I was told.
+I was being told.
+I had been told.
+I had been being told.
+I will be told.
+I will be being told.
+
+All persons: all tenses, passive sentences in negation
+I am not told.
+I am not being told.
+I have not been told.
+I have not been being told.
+I was not told.
+I was not being told.
+I had not been told.
+I had not been being told.
+I will not be told.
+I will not be being told.
+
+All person: auxiliary verbs as main verbs, active sentences.
+I am a good student.
+I was a good student.
+I will be a good student.
+I have been a good student.
+I had been a good student.
+I have a book.
+I had a book.
+I will have a book.
+I am having problem in reading this book. **
+You are a good student.
+You were a good student.
+You will be a good student.
+You have been a good student.
+You had been a good student.
+You have a book.
+You had a book.
+You will have a book.
+She is a good student.
+She was a good student.
+She will be a good student.
+She has been a good student.
+She had been a good student.
+She has a book.
+She had a book.
+She will have a book.
+
+First person: all tenses, active sentences.
+I work.
+I am working.
+I have worked.
+I have been working.
+I worked.
+I was working.
+I had worked.
+I had been working.
+I will work.
+I will be working.
+
+First person: all tenses, active sentences in negation
+I do not work.
+I am not working.
+I have not worked.
+I have not been working.
+I did not work.
+I was not working.
+I had not worked.
+I had not been working.
+I will not work.
+I will not be working.
+
+All persons: Interrogative sentences with preceding auxiliary verbs.
+Do I work?
+Am I working?
+Have I worked?
+Have I been working?
+Did I work?
+Was I working?
+Had I worked?
+Had I been working?
+Will I work?
+Will I be working?
+Do you work?
+Are you working?
+Have you worked?
+Have you been working?
+Did you work?
+Were you working?
+Had you worked?
+Had you been working?
+Will you work?
+Will you be working?
+
+All persons: interrogative sentences that begin with do
+Do I know you?
+Did I tell you?
+Do you know me?
+Did you tell me?
+Does she know me?
+Do you eat this bread?
+Did you eat this bread?
+Does she eat this bread?
+Did she eat this bread?
+
+Interrogative sentences with  How.
+How are you?
+How were you?
+How does this machine work?
+How do you know about them?
+How will you control this kingdom?
+How machines are made?
+How do children browse the internet?
+How long does it take?
+How good are these fruits?
+How many birds were there?
+How much money do you have?
+How far is it?
+How big is this city?
+How to plan a building?
+How to become a scientist?
+How to be a good student?
+How to change the world?
+How not to change the world?
+
+All persons: interrogative sentences with what
+What is my name?
+What was my name?
+What will be my name?
+What is your name?
+What was your name?
+What will be your name?
+What is her name?
+What was her name?
+What will be her name?
+
+Interrogative sentences with where
+Where are you today?
+Where does she live?
+Where will you go tomorrow?
+
+Interrogative sentences with which
+Which book is the best?
+Which food do you like?
+
+Interrogative sentences with who
+Who are you?
+Who was she?
+Who fixed this car?
+Who wants to drink milk?
+
+Interrogative sentences with whom
+Whom do you want?
+To whom did he tell story?
+
+Interrogative sentences with why
+Why are you late today?
+Why is she cooking food?
+Why will she work?
+
+Prepositions that are made with three words
+As far as I know. 
+You can get pen as well as paper.
+You can transfer information by means of physical medium.
+I am announcing on behalf of our company.
+
+Prepositions that are made with two words.
+You cannot work according to the rules.
+They are protesting ahead of the conference.
+Aside from the mild fever, the patient feels well.
+
+Second person: all tenses, active sentences
+You work.
+You are working.
+You have worked.
+You have been working.
+You worked.
+You were working.
+You had worked.
+You had been working.
+You will work.
+You will be working.
+
+Second person: all tenses, active sentences in negation
+You do not work.
+You are not working.
+You have not worked.
+You have not been working.
+You did not work.
+You were not working.
+You had not worked.
+You had not been working.
+You will not work.
+You will not be working.
+
+Special handling of do verb for different situations
+I do.
+I am doing.
+I have done.
+I have been doing.
+I did.
+I was doing.
+I had done.
+I had been doing.
+I will do.
+I will be doing.
+I do work.
+I do have this book.
+I did have this book.
+
+Third person: all tenses, active sentences
+She works.
+She is working.
+She has worked.
+She has been working.
+She worked.
+She was working.
+She had worked.
+She had been working.
+She will work.
+She will be working.
+
+Third person: all tenses, active sentences in negation
+She does not work.
+She is not working.
+She has not worked.
+She has not been working.
+She did not work.
+She was not working.
+She had not worked.
+She had not been working.
+She will not work.
+She will not be working.

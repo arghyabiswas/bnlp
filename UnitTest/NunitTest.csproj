@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7097833-7E25-4D14-B5F0-420356E13458}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NunitTest</RootNamespace>
+    <AssemblyName>NunitTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="nunit.core">
+      <HintPath>..\..\..\..\..\home\arghya\Downloads\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\home\arghya\Downloads\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="TestCases\all_persons_modal_can_may.xml" />
+    <None Include="TestCases\all_persons_modal_can_may_negation.xml" />
+    <None Include="TestCases\all_persons_modal_should.xml" />
+    <None Include="TestCases\all_persons_modal_should_negation.xml" />
+    <None Include="TestCases\all_persons_tenses_passive.xml" />
+    <None Include="TestCases\all_persons_tenses_passive_negation.xml" />
+    <None Include="TestCases\auxiliary_verbs_as_main_verbs.xml" />
+    <None Include="TestCases\first_person_tenses_active.xml" />
+    <None Include="TestCases\first_person_tenses_active_negation.xml" />
+    <None Include="TestCases\interrogative_sentences_aux.xml" />
+    <None Include="TestCases\interrogative_sentences_do.xml" />
+    <None Include="TestCases\interrogative_sentences_how.xml" />
+    <None Include="TestCases\interrogative_sentences_what.xml" />
+    <None Include="TestCases\interrogative_sentences_where.xml" />
+    <None Include="TestCases\interrogative_sentences_which.xml" />
+    <None Include="TestCases\interrogative_sentences_who.xml" />
+    <None Include="TestCases\interrogative_sentences_whom.xml" />
+    <None Include="TestCases\interrogative_sentences_why.xml" />
+    <None Include="TestCases\prepositions_made_with_three_words.xml" />
+    <None Include="TestCases\prepositions_made_with_two_words.xml" />
+    <None Include="TestCases\second_person_tenses_active.xml" />
+    <None Include="TestCases\second_person_tenses_active_negation.xml" />
+    <None Include="TestCases\special_handling_do_verb.xml" />
+    <None Include="TestCases\third_person_tenses_active.xml" />
+    <None Include="TestCases\third_person_tenses_active_negation.xml" />
+    <None Include="app.config" />
+    <None Include="Web References\NBNLPService\BNLPService.wsdl" />
+    <None Include="Web References\NBNLPService\BNLPService.disco" />
+    <None Include="Web References\NBNLPService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://127.0.0.1:8080/BNLPService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\NBNLPService</RelPath>
+      <UpdateFromURL>http://127.0.0.1:8080/BNLPService.asmx</UpdateFromURL>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Web References\NBNLPService\Reference.cs">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

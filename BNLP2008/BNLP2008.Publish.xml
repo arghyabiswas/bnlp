@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Projects\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="01/05/2015 22:49:18" />
+    <file relUrl="bin/OpenNLP.xml" publishTime="01/05/2015 22:57:07" />
+    <file relUrl="bin/BNLP2008.pdb" publishTime="01/05/2015 22:57:10" />
+    <file relUrl="bin/log4net.dll" publishTime="10/06/2011 19:44:02" />
+    <file relUrl="bin/NLPToken.pdb" publishTime="01/05/2015 22:57:08" />
+    <file relUrl="Global.asax" publishTime="01/12/2011 00:22:03" />
+    <file relUrl="bin/SharpWordNet.pdb" publishTime="01/05/2015 22:57:06" />
+    <file relUrl="BNLPService.asmx" publishTime="01/12/2011 00:22:03" />
+    <file relUrl="bin/OpenNLP.dll" publishTime="01/05/2015 22:57:07" />
+    <file relUrl="bin/NLPToken.dll" publishTime="01/05/2015 22:57:08" />
+    <file relUrl="bin/log4net.xml" publishTime="10/06/2011 19:44:02" />
+    <file relUrl="bin/SharpWordNet.dll" publishTime="01/05/2015 22:57:06" />
+    <file relUrl="bin/SharpEntropy.dll" publishTime="01/05/2015 22:57:06" />
+    <file relUrl="bin/SharpEntropy.pdb" publishTime="01/05/2015 22:57:06" />
+    <file relUrl="Default.aspx" publishTime="08/25/2013 09:47:42" />
+    <file relUrl="bin/BNLP2008.dll" publishTime="01/05/2015 22:57:10" />
+    <file relUrl="bin/OpenNLP.pdb" publishTime="01/05/2015 22:57:07" />
+  </publishProfile>
+</publishData>
