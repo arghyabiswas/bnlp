@@ -1,10 +1,11 @@
-﻿<Properties GitUserInfo="UsingMD">
+﻿<Properties StartupConfiguration="{4227F851-3DBC-4282-89B6-F6742057BCB5}|" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workbench ActiveDocument="BNLP Status">
     <Files>
       <File FileName="BNLP Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BNLP.BNLP2008 PreferredExecutionTarget="env" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
