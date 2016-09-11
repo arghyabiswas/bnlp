@@ -28,8 +28,8 @@ app.directive('choice', function($compile) {
     '</li>',
     link: function(scope, elm, attrs) {
       //Add children by $compiling and doing a new choice directive
-      if (scope.choice._Tokens != null) {
-        var childChoice = $compile('<choice-tree ng-model="choice._Tokens"></choice-tree>')(scope)
+      if (scope.choice.tokens != null) {
+        var childChoice = $compile('<choice-tree ng-model="choice.tokens"></choice-tree>')(scope)
         elm.append(childChoice);
       }
     }

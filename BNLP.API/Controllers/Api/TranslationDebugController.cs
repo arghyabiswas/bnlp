@@ -13,7 +13,7 @@ namespace BNLP.API.Controllers
     {
         public List<Token>  Get(string id)
 		{
-			List<Token> _Tokens = new List<Token>();
+			List<Token> tokens = new List<Token>();
 
 			string[] sentences = SplitSentences(id);
 			foreach (string sentence in sentences)
@@ -26,9 +26,9 @@ namespace BNLP.API.Controllers
 				}
 				_TempSentence = ParseSentence(_TempSentence);
 				Translate oTran = new Translate(_TempSentence);
-				_Tokens.Add(oTran.Token);
+				tokens.Add(oTran.Token);
 			}
-			return _Tokens;
+			return tokens;
 			//return CreateXML(_Tokens);
 		}
 

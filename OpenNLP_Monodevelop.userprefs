@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{4227F851-3DBC-4282-89B6-F6742057BCB5}|" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BNLP Status">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BNLP.API/Scripts/Application.js">
     <Files>
       <File FileName="BNLP Status" />
+      <File FileName="BNLP.API/Controllers/Api/TranslationDebugController.cs" Line="31" Column="18" />
+      <File FileName="BNLP.API/Scripts/Application.js" Line="32" Column="69" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
