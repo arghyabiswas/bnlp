@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding="UTF-8"?>
-<testsuites type="Wikipedia">
-  <author>Arghya Biswas</author>
-  <sentence english="The naval Battle of the Eastern Solomons took place on 24–25 August 1942, and was the third carrier battle of the Pacific campaign of second World War." 
-            expected_bengali="পূর্ব সলোমন এর নৌ যুদ্ধ ২৪–২৫ অগষ্ট ১৯৪২ য়ে স্থান গ্রহণ করেছিল , এবং দ্বিতীয় বিশ্ব যুদ্ধ এর প্রশান্ত মহাসাগর সংগঠিত প্রচারকার্য এর তৃতীয় যুদ্ধ বাহক ।">
-    The naval Battle of the Eastern Solomons took place on 24–25 August 1942, and was the third carrier battle of the Pacific campaign of second World War.
-  </sentence>
-</testsuites>
